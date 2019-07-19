@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: password
+  host: localhost
+
+development:
+  <<: *default
+  database: videoforest_development
+
+test:
+  <<: *default
+  database: videoforest_test
+
+production:
+  <<: *default
+  database: videoforest_production
+  # username: viideoforest
+  # password: <%= ENV['VIDEOFOREST_DATABASE_PASSWORD'] %>
