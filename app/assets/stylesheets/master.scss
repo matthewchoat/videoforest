@@ -7,4 +7,29 @@
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background: image_url('forestbg.png');
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+}
+
+.navbar {
+  background: image_url('forestdark.jpg');
+  box-shadow: 0px 1px 3px #2a2a2a;
+  margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #7dff59;
+  font-family: 'optimusprincepsregular', serif;
+  margin-bottom: 0;
 }

@@ -15,5 +15,12 @@ module Videoforest
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # Add the fonts path
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
+
+    # Precompile additional assets
+    config.assets.precompile += %w( .svg .eot .woff .ttf )
+    
   end
 end
