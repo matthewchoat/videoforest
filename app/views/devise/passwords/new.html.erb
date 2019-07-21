@@ -1,5 +1,7 @@
+<br />
+<div class="booyah-box col-10 offset-1">
 <h2>Forgot your password?</h2>
-
+  <br />
 <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= f.error_notification %>
 
@@ -9,10 +11,11 @@
                 autofocus: true,
                 input_html: { autocomplete: "email" } %>
   </div>
-
+  <br />
   <div class="form-actions">
-    <%= f.button :submit, "Send me reset password instructions" %>
+    <%= f.button :submit, "Send me reset password instructions", class: 'btn btn-primary' %>
   </div>
 <% end %>
-
+  <br />
 <%= render "devise/shared/links" %>
+</div>
