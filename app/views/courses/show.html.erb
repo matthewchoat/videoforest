@@ -1,7 +1,8 @@
 <br />
 
 <div class="booyah-box col-10 offset-1">
-  <h1><%= @course.title %></h1>
+  <h1 class="text-center"><%= @course.title %></h1>
+  <%= image_tag @course.image.to_s %>
   <br />
   <div class="row">
     <div class="col-sm-4 col-12">
