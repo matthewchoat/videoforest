@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 body {
   background: image_url('tree_bark.png');
-  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  font-family: "Helvetica Neue", Helvetica;
 }
 
 .navbar {
@@ -92,4 +92,28 @@ body {
 .photothumb img {
   max-width: 200px;
   max-height: 200px
+}
+
+.lesson {
+  background-color: black;
+  margin-top: 10px;
+  height: 130px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
+
+.lesson a {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
 }
