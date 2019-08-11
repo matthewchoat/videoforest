@@ -72,6 +72,7 @@ gem 'pagy'
 gem "fog-aws"
 gem 'stripe'
 gem 'ranked-model'
+gem 'jquery-ui-rails'
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
 
