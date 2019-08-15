@@ -6,6 +6,6 @@ class CreateLessons < ActiveRecord::Migration[5.2]
       t.integer :section_id
       t.timestamps
     end
-    add_index :lessons, :section_id1
+    add_index :lessons, :section_id
   end
 end
