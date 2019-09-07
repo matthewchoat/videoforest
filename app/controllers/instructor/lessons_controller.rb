@@ -13,6 +13,12 @@ class Instructor::LessonsController < ApplicationController
     render plain: 'updated!'
   end
 
+  def deletelesson
+    if current_user == current_lesson.section.course.user
+      current_lesson.destroy
+    end
+  end
+
   private
 
   def require_authorized_for_current_lesson

@@ -13,4 +13,14 @@ class Lesson < ApplicationRecord
     return lesson
   end
 
+    def destroy
+    @lesson = Lesson.find(params[:id])
+    if @lesson.user != current_user
+      return render plain: 'Not Allowed', status: :forbidden
+    end
+
+    @lesson.destroy
+    redirect_to root_path
+  end
+
 end
