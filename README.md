@@ -1,4 +1,5 @@
-<h1>"Video-Forest" e-Learning Marketplace </h1>
+<h1>Video-Forest </h1>
+<h2> Two-sided e-Learning Marketplace </h2>
 Video-Forest is a two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
 
 <img src="https://matthewchoat.netlify.com/flixter.png" />
